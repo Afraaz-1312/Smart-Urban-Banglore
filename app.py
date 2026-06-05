@@ -47,7 +47,7 @@ st.markdown("""
 def generate_data():
     np.random.seed(42)
     START_DATE   = pd.Timestamp("2022-01-01")
-    END_DATE     = pd.Timestamp("2022-03-31")
+    END_DATE = pd.Timestamp("2022-01-31")
     ANOMALY_RATE = 0.08
 
     ZONES = {
@@ -212,7 +212,7 @@ def apply_iforest(df, value_col):
         X = loc_df[[value_col]+FEATURES].fillna(0)
         X_scaled = StandardScaler().fit_transform(X)
         preds = IsolationForest(
-            n_estimators=50, contamination=0.08,
+            n_estimators=30, contamination=0.08,
             random_state=42, n_jobs=-1).fit_predict(X_scaled)
         loc_df['if_anomaly'] = (preds==-1).astype(int)
         results.append(loc_df)
