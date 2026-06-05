@@ -1,7 +1,7 @@
 # ⚡ Smart Urban Energy Efficiency System
 
 ## 📌 About
-A data-driven decision support system to detect and analyze 
+A data driven decision support system to detect and analyze 
 abnormal usage patterns in electricity and water consumption 
 across Bangalore urban zones using Machine Learning.
 
@@ -34,7 +34,3 @@ across Bangalore urban zones using Machine Learning.
 - **Wards:** 24
 - **Blocks:** 96
 - **Resources:** Electricity & Water
-- **Data Period:** 2022
-
-## 👨‍💻 Project
-Mini Project — B.E Computer Science
