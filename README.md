@@ -14,6 +14,8 @@ Bangalore urban zones.
 
 ## Live Dashboard
 https://your-streamlit-link.streamlit.app
+or
+https://smart-urban-banglore-v2.streamlit.app/
 
 ## Tech Stack
 Python, Streamlit, Scikit-learn, Pandas
