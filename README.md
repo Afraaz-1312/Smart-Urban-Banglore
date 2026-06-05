@@ -1,24 +1,40 @@
-# Smart Urban Energy Efficiency System
+# ⚡ Smart Urban Energy Efficiency System
 
-## About
-A data-driven system to detect anomalies in 
-electricity and water consumption across 
-Bangalore urban zones.
+## 📌 About
+A data-driven decision support system to detect and analyze 
+abnormal usage patterns in electricity and water consumption 
+across Bangalore urban zones using Machine Learning.
 
-## Features
-- Z-Score anomaly detection
-- Isolation Forest ML model
-- Zone → Ward → Block level monitoring
-- Severity classification
-- Manual reading check
+## 🚀 Live Dashboard
+👉  (https://smart-urban-banglore-v2.streamlit.app/) 
+      or 
+    (https://smart-urban-banglore.streamlit.app/)
 
-## Live Dashboard
-https://your-streamlit-link.streamlit.app
-or
-https://smart-urban-banglore-v2.streamlit.app/
+## ✨ Features
+- 🔍 Z-Score statistical anomaly detection
+- 🤖 Isolation Forest ML model
+- 🗺️ Zone → Ward → Block level monitoring (96 locations)
+- 🚨 Severity classification — Critical, High, Medium, Low
+- 🧪 Manual meter reading check
+- 📋 Downloadable anomaly reports
+- 📊 Model performance comparison
 
-## Tech Stack
-Python, Streamlit, Scikit-learn, Pandas
+## 🛠️ Tech Stack
+| Tool | Purpose |
+|---|---|
+| Python | Core language |
+| Streamlit | Dashboard |
+| Scikit-learn | ML models |
+| Pandas & NumPy | Data processing |
+| Plotly | Visualizations |
 
-## City
-Bangalore, India — 8 Zones, 24 Wards, 96 Blocks
+## 🏙️ Coverage
+- **City:** Bangalore, India
+- **Zones:** 8
+- **Wards:** 24
+- **Blocks:** 96
+- **Resources:** Electricity & Water
+- **Data Period:** 2022
+
+## 👨‍💻 Project
+Mini Project — B.E Computer Science
