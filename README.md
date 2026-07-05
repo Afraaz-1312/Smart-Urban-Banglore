@@ -6,9 +6,10 @@ abnormal usage patterns in electricity and water consumption
 across Bangalore urban zones using Machine Learning.
 
 ## 🚀 Live Dashboard
-👉  (https://smart-urban-banglore-v2.streamlit.app/) 
-      or 
-    (https://smart-urban-banglore.streamlit.app/)
+👉 https://smart-urban-banglore-v3.streamlit.app/
+👉 [Previous Version] (https://smart-urban-banglore-v2.streamlit.app/)  
+      or
+      (https://smart-urban-banglore.streamlit.app/)
 
 ## ✨ Features
 - 🔍 Z-Score statistical anomaly detection
